@@ -1,0 +1,15 @@
+<!--pages/color-picker/color-picker.wxml-->
+<view id='label-title'>{{news.title}}</view>
+<view id='label-content'>
+  <text>{{news.content}}</text>
+</view>
+
+<view id='color-container'>
+  <view class='color-item' wx:for='{{color}}' wx:key='{{item.id}}' id='{{item.id}}' style='background-color: #{{item.color}};' catchtap='onColorTapped'>
+  </view>
+</view>
+
+<view id='bottom-container'>
+  <view id='preview-item' style='background-color: #{{selectedColor}};'></view>
+  <view id='btn-submit'>提 交</view>
+</view>

@@ -1,0 +1,65 @@
+/* pages/color-picker/color-picker.wxss */
+
+#label-title {
+  width: 100%;
+  text-align: center;
+  font-size: 50rpx;
+  font-weight: 600;
+  /* background-color: red; */
+}
+
+#label-content {
+  /* width: 100%; *//* padding: 30rpx 50rpx; */
+  margin: 20rpx 100rpx;
+  font-size: 40rpx;
+}
+
+#color-container {
+  /* background-color: blue; */
+  width: 550rpx;
+  margin: 50rpx 100rpx;
+  height: 500rpx;
+  border-color: black;
+  border-radius: 15rpx;
+  border-style: solid;
+  border-width: 1rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.color-item {
+  /* width: 50rpx;
+  height: 50rpx; */
+  width: 550rpx;
+  height: 25rpx;
+
+}
+
+#bottom-container {
+  /* background-color: red; */
+  width: 550rpx;
+  margin: 50rpx 100rpx;
+  height: 110rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#preview-item {
+  background-color: green;
+  width: 300rpx;
+  height: 100%;
+  border-radius: 15rpx;
+}
+
+#btn-submit {
+  background-color: green;
+  color: white;
+  text-align: center;
+  width: 200rpx;
+  padding: 30rpx 0rpx;
+  border-radius: 15rpx;
+}
